@@ -2,6 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: #333333;
   font-size: 18px;
+  background-color: rgb(121, 211, 211);
 }
 
 h1, h2, h3, h4 {
@@ -43,7 +44,7 @@ a:visited {
 
 h1 a,
 h1 a:visited {
-  color: #333333;
+  color: rgb(240, 96, 96);
   text-decoration: none;
 }
 
@@ -127,7 +128,6 @@ div#container {
   margin: 0 auto 300px;
   padding: 20px;
   width: 640px;
-  background-color: rgba(255, 255, 255, 0.7);
 }
 
 div#main {
