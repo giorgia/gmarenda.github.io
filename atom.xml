@@ -1,19 +1,19 @@
 ---
 layout: nil
-base_path: http://potomak.github.io/techpeaks
+base_path: http://giorgiamarenda.com
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>TechPeaks Log</title>
+  <title>Giorgia Marenda</title>
   <link href="{{ page.base_path }}/atom.xml" rel="self"/>
   <link href="{{ page.base_path }}"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ page.base_path }}</id>
   <author>
-    <name>TechPeaks Log</name>
-    <email>potomak84@gmail.com</email>
+    <name>Giorgia Marenda</name>
+    <email>giorgia.marenda@gmail.com</email>
   </author>
 
   {% for post in site.posts %}
