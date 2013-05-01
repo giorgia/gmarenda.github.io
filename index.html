@@ -3,15 +3,3 @@ layout: default
 title: Giorgia Marenda
 description: Giorgia Marenda.
 ---
-
-<div id="home">
-  <h2>Posts</h2>
-  <ul class="posts unstyled">
-    {% for post in site.posts %}
-      <li>
-        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date: "%B %d, %Y" }}</time>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
