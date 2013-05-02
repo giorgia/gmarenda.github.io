@@ -163,6 +163,12 @@ div#main {
   margin-left: 40px;
 }
 
+.subtitle {
+  font-size: 22pt;
+  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
 .icon {
   border-radius: 15px;
   margin-right: 20px;
