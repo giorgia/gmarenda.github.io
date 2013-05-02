@@ -158,14 +158,19 @@ div#main {
 .desc {
   font-size: 18pt;
   width: 500px;
-  height: 80%;
-  margin-top: 100px;
+  height: 70%;
+  margin-top: 10%;
   margin-left: 40px;
 }
 
 .icon {
   border-radius: 15px;
   margin-right: 20px;
+}
+
+.apple_available {
+  float: right;
+  margin-top: 50%
 }
 
 article header {
