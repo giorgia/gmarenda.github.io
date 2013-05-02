@@ -127,7 +127,7 @@ q {
 div#container {
   margin: 0 auto 300px;
   padding: 20px;
-  width: 640px;
+  width: 840px;
 }
 
 div#main {
@@ -151,6 +151,23 @@ div#main {
   clear: both;
 }
 
+.float {
+  float: left;
+}
+
+.desc {
+  font-size: 18pt;
+  width: 500px;
+  height: 80%;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.icon {
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
 article header {
   margin-bottom: 20px;
 }
@@ -167,3 +184,6 @@ footer * {
 #disqus_thread {
   margin: 50px auto;
 }
+
+/*Project*/
+

@@ -17,9 +17,14 @@
     body {
       background-color: {{ page.background_color }};
     }
+
     h1 a,
     h1 a:visited {
      color: {{ page.title_color }};
+    }
+
+    .desc {
+      color: {{ page.text_color }};
     }
   </style>
 </head>
@@ -27,7 +32,7 @@
 <body>
   <div id="container">
     <header class="wrapper clearfix">
-      <h1 id="title"><a href="/">Giorgia Marenda</a></h1>
+      <h1 id="title"><a href="/">{{ page.title }}</a></h1>
     </header>
 
     <div id="main" class="wrapper clearfix">
