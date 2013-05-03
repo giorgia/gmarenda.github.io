@@ -155,6 +155,12 @@ div#main {
   float: left;
 }
 
+.iphone_content {
+  position: absolute;
+  top:90px;
+  left:22px;
+}
+
 .desc {
   font-size: 18pt;
   width: 500px;
