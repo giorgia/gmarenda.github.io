@@ -161,6 +161,10 @@ div#main {
   left:22px;
 }
 
+.relative {
+  position: relative;
+}
+
 .desc {
   font-size: 18pt;
   width: 500px;
