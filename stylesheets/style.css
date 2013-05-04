@@ -158,7 +158,11 @@ div#main {
 .iphone_content {
   position: absolute;
   top:90px;
-  left:22px;
+  left:29px;
+}
+
+.social_button {
+  margin-top: 20px;
 }
 
 .relative {
