@@ -142,6 +142,11 @@ div#main {
     width: auto;
     max-width:100%;
   }
+
+  .image {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
 }
 
 .wrapper {}
@@ -182,7 +187,6 @@ div#main {
 
 .image {
   margin-top: 20px;
-  margin-left: 20px;
   margin-left: 20px;
 }
 
