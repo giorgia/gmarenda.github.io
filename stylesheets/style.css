@@ -178,18 +178,16 @@ div#main {
 
 .subtitle {
   font-size: 22pt;
-  margin-bottom: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .icon {
   border-radius: 15px;
-  margin-right: 20px;
+  margin: 10px;
 }
 
 .apple_available {
-  float: right;
-  margin-top: 40%
+  margin-top: 50px;
 }
 
 article header {
@@ -217,12 +215,29 @@ footer * {
     max-width:100%;
   }
 
+  .subtitle {
+    width: auto;
+    font-size: 18pt;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
   .image {
     margin-top: 10px;
     margin-left: 10px;
   }
 
   h1 {
-  font-size: 370%;
+    margin-left: 5px;
+    font-size: 370%;
+  }
+
+  .apple_available {
+   float: left;
+   margin-top: 10px;
+  }
+
+  .social_button {
+    margin-top: 20px;
 }
 }
