@@ -219,6 +219,10 @@ footer * {
 
   .image {
     margin-top: 10px;
-    margin-left: 0px;
+    margin-left: 10px;
   }
+
+  h1 {
+  font-size: 370%;
+}
 }
