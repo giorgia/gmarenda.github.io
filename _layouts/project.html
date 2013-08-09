@@ -14,6 +14,52 @@
   <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="scripts/jquery.slides.min.js"></script>
+
+   <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 296,
+        height: 395,
+        pagination: {
+          active: false,
+            // [boolean] Create pagination items.
+            // You cannot use your own pagination. Sorry.
+          effect: "slide"
+            // [string] Can be either "slide" or "fade".
+          },
+        navigation: {
+         active: false,
+          // [boolean] Generates next and previous buttons.
+          // You can set to false and use your own buttons.
+          // User defined buttons must have the following:
+          // previous button: class="slidesjs-previous slidesjs-navigation"
+          // next button: class="slidesjs-next slidesjs-navigation"
+         effect: "slide"
+          // [string] Can be either "slide" or "fade".
+        },
+        play: {
+            active: false,
+            // [boolean] Generate the play and stop buttons.
+            // You cannot use your own buttons. Sorry.
+            effect: "slide",
+            // [string] Can be either "slide" or "fade".
+            interval: 3000,
+            // [number] Time spent on each slide in milliseconds.
+            auto: true,
+            // [boolean] Start playing the slideshow on load.
+            swap: false,
+            // [boolean] show/hide stop and play buttons
+            pauseOnHover: true,
+            // [boolean] pause a playing slideshow on hover
+            restartDelay: 2500
+            // [number] restart delay on inactive slideshow
+    }
+      });
+    });
+  </script>
+
   {% include analytics.html %}
   <style>
     body {
@@ -28,11 +74,17 @@
     .desc {
       color: {{ page.text_color }};
     }
+
+    .subtitle {
+      color: {{ page.text_color }};
+    }
+
   </style>
 </head>
 
 <body>
   <div id="fb-root"></div>
+
   <script>
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
