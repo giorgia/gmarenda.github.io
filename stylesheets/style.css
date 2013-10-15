@@ -224,12 +224,33 @@ footer * {
   display:none;
 }
 
+#slides_iphone {
+  display:none;
+}
+
+.appio {
+  width: 291px;
+  float: left;
+  position: absolute;
+  top:95px;
+  left:-2px;
+}
+
 .slider {
   width: 296px;
   float: left;
   position: absolute;
   top:46px;
   left:43px;
+}
+
+.slider_iphone {
+  width: 250px;
+  min-height: 475px;
+  float: left;
+  position: absolute;
+  top:105px;
+  left:35px;
 }
 
 @media screen and (min-width:0) and (max-width:825px) {
