@@ -157,6 +157,7 @@ div#main {
   overflow: hidden;
   clear: both;
   padding-bottom: 30px;
+  width: 100%;
 }
 
 .float {
