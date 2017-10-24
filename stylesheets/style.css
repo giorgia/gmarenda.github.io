@@ -1,31 +1,40 @@
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  color: #333333;
-  font-size: 18px;
-  background-color: rgb(121, 211, 211);
-}
-
-h1, h2, h3, h4 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+  background-color: rgb(0, 0, 0);
+  letter-spacing: 3px;
 }
 
 h1 {
-  font-size: 470%;
+  font-size: 450%;
+  letter-spacing: 11px;
+  font-weight: 900;
+  line-height: 80px;
 }
 
 h2 {
-  font-size: 150%;
+  font-size: 200%;
+  letter-spacing: 7px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 h3 {
-  font-size: 125%;
+  font-size: 195%;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 h4 {
-  font-size: 112.5%;
+  font-size: 80%;
+  letter-spacing: 6px;
+  font-weight: 900;
+  color: #0000FF;
 }
 
 sup {
@@ -36,23 +45,24 @@ sup {
 a,
 a:hover,
 a:active {
-  color: #333333;
+  color: #0000FF;
 }
 
 a:visited {
-  color: #666666;
+  color: #0000FF;
+  text-decoration: none;
 }
 
 h1 a,
 h1 a:visited {
-  color: rgb(240, 96, 96);
+  color: #0000FF;
   text-decoration: none;
 }
 
 p {
   line-height: 22px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 ul, ol {
@@ -127,8 +137,8 @@ q {
 
 div#container {
   margin: 0 auto 300px;
-  padding: 20px;
-  width: 840px;
+  padding: 30px;
+  width: 70%;
 }
 
 div#main {
@@ -153,18 +163,19 @@ div#main {
   left:29px;
 }
 
-.social_button {
-  margin-top: 20px;
-  margin-left: 30px;
-}
-
 .relative {
   position: relative;
 }
 
 .subtitle {
-  font-size: 18pt;
-  margin: 20px;
+  font-weight: 300;
+  font-size: 20pt;
+  letter-spacing: 6px;
+}
+
+.section {
+  font-weight: 600;
+  font-size: 33pt;
 }
 
 .desc {
@@ -182,15 +193,9 @@ div#main {
   margin-left: 20px;
 }
 
-.subtitle {
-  font-size: 22pt;
-  margin-bottom: 20px;
-}
-
 .works_block {
+  margin-top: 80px;
   overflow: hidden;
-  font-size: 22pt;
-  margin-bottom: 20px;
 }
 
 .icon {
@@ -256,7 +261,7 @@ footer * {
 @media screen and (min-width:0) and (max-width:825px) {
   div#container {
     margin: 0 auto 100px;
-    padding: 0px;
+    padding: 10px;
     width: auto;
     max-width:100%;
   }
