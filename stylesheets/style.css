@@ -149,10 +149,11 @@ div#main {
 
 .wrapper {}
 
-.block {
+.images_block {
   float:left;
   overflow: hidden;
   clear: both;
+  padding-bottom: 30px;
 }
 
 .float {
