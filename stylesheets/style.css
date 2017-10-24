@@ -280,22 +280,13 @@ footer * {
     margin-left: 10px;
   }
 
-  .image {
-    margin-top: 10px;
-    margin-left: 10px;
+  img {
+    margin-top: 5px;
+    margin-right: 5px;
   }
 
   h1 {
     margin-left: 5px;
-    font-size: 370%;
+    font-size: 280%;
   }
-
-  .apple_available {
-   float: left;
-   margin-top: 10px;
-  }
-
-  .social_button {
-    margin-top: 20px;
-}
 }
