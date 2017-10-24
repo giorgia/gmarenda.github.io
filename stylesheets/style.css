@@ -150,9 +150,6 @@ div#main {
 .wrapper {}
 
 .block {
-  float:left;
-  overflow: hidden;
-  clear: both;
 }
 
 .images_block {
